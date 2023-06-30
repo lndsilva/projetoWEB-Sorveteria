@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu-principal{
+    background-color: #FCD60F;
+}
+.container{
+    background-image: url('/imagens/sorveteria.jpg');
+    padding: 200px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;   
+}
+p{
+    margin: 20px;
+}
+button{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10p;
+    border-radius: 30px;
+}
+#btn-produtos{
+    background-color: black;
+    color: #FCD60F;
+}
+#btn-fpedido{
+    background-color: blueviolet;
+    margin-right: 5px;
+}
+#btn-nprodutos{
+    background-color: white;
+    margin-left: 5px;
+
+}
