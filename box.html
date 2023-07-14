@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box</title>
+    <link rel="stylesheet" href="css/box.css">
+    <script src="https://kit.fontawesome.com/73afb92c43.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>Without box-sizing</h1>
+    <div class="div1">
+        This div is smaller (width is 300px and height is 100px).
+    </div>
+    <br>
+    <div class="div2">
+        Hooray!
+    </div>
+    <p>Display a list of links as a horizontal menu:</p>
+    <ul>
+        <li><a href="/html/default.asp" target="_blank">HTML</a></li>
+        <li><a href="/css/default.asp" target="_blank">CSS</a></li>
+        <li><a href="/js/default.asp" target="_blank">JavaScript</a></li>
+    </ul>
+    
+    <h1>Display span elements as block elements</h1>
+    
+    <span>A display property with</span>
+    <span>a value of "block" results in</span>
+    <span>a line break between each span elements.</span>
+
+    <h1>Display links as block elements</h1>
+    <a href="/html/default.asp" target="_blank">HTML</a>
+    <a href="/css/default.asp" target="_blank">CSS</a>
+    <a href="/js/default.asp" target="_blank">JavaScript</a>
+
+    <h1>This is a visible heading</h1>
+    <h1 class="hidden">This is a hidden heading</h1>
+    <p>Notice that the h1 element with display: none; does not take up any space.</p>
+
+    <h2>CSS Max-width</h2>
+    <div class="ex1">This div element has width: 500px;</div>
+    <br>
+    <div class="ex2">This div element has max-width: 500px;</div>
+    <p><strong>Tip:</strong> Drag the browser window to smaller than 500px wide, to see the difference between the two divs!</p>
+
+    <h2>position: static;</h2>
+    <p>An element with position: static; is not positioned in any special way; it is always positioned according to the normal flow of the page:</p>
+    <div class="static">
+        This div element has position: static;
+    </div>
+    
+    <h2>position: fixed;</h2>
+    <p>An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled:</p>
+    <div class="fixed">
+        This div element has position: fixed;
+    </div>
+    
+    <h2>position: absolute;</h2>
+    <p>An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed):</p>
+    <div class="relative">
+        This div element has position: relative;
+        <div class="absolute">
+            This div element has position: absolute;          
+        </div>
+    </div>
+
+    <p>Try to <b>scroll</b> inside this frame to understand how sticky positioning works.</p>
+    <div class="sticky">I am sticky!</div>
+    <div style="padding-bottom:2000px">
+        <p>In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.</p>
+        <p>Scroll back up to remove the stickyness.</p>
+        <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+        <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+    </div>
+
+    <h1>This is a heading</h1>
+    <img src="imagens/img_tree.png">
+    <p>Because the image has a z-index of -1, it will be placed behind the text.</p>
+</body>
+</html>
